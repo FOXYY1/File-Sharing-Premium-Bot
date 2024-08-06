@@ -16,7 +16,7 @@ from datetime import datetime
 from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL, CHANNEL_ID, PORT
 import pyrogram.utils
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002236891452
 
 
 name ="""By @Madflix_Bots From Telegram"""
@@ -26,13 +26,13 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="Bot",
-            api_hash=API_HASH,
-            api_id=APP_ID,
+            api_hash=139e0dc17a21d9215349ca7fe814890c,
+            api_id=27749642,
             plugins={
                 "root": "plugins"
             },
             workers=TG_BOT_WORKERS,
-            bot_token=TG_BOT_TOKEN
+            bot_token=7140170171:AAFAS2Lnpix02kPgZ7ZueqczLvYsd-dxLcY
         )
         self.LOGGER = LOGGER
 
